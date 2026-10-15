@@ -1,0 +1,1099 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shekhar Tours & Travels | 24/7 Cab Service & Tour Packages | +91 8920175546</title>
+    <meta name="description" content="Book reliable local & outstation cabs, airport transfers, and holiday tour packages with Shekhar Tours & Travels. Call or WhatsApp +91 8920175546 for instant booking.">
+    
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <!-- Google Fonts: Inter & Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        heading: ['Poppins', 'sans-serif'],
+                    },
+                    colors: {
+                        brand: {
+                            navy: '#0f172a',
+                            blue: '#1e3a8a',
+                            amber: '#f59e0b',
+                            orange: '#ea580c',
+                            whatsapp: '#25D366',
+                            whatsappDark: '#128C7E'
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <style>
+        /* Custom styling and animations */
+        .hero-bg {
+            background-image: linear-gradient(to right, rgba(15, 23, 42, 0.88), rgba(15, 23, 42, 0.65)), url('https://images.unsplash.com/photo-1469854523086-cc02fe5d8800?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
+            background-size: cover;
+            background-position: center;
+        }
+        .pulse-ring {
+            animation: pulse-ring 2s infinite;
+        }
+        @keyframes pulse-ring {
+            0% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7); }
+            70% { box-shadow: 0 0 0 15px rgba(37, 211, 102, 0); }
+            100% { box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+        }
+        .card-hover {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .card-hover:hover {
+            transform: translateY(-6px);
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans antialiased selection:bg-amber-500 selection:text-white">
+
+    <!-- Top Announcement Bar -->
+    <div class="bg-brand-navy text-slate-200 text-xs sm:text-sm py-2 px-4 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto flex flex-wrap justify-between items-center gap-2">
+            <div class="flex items-center space-x-4">
+                <span class="flex items-center text-amber-400 font-medium">
+                    <i class="fa-solid fa-clock mr-1.5"></i> 24/7 Service Available
+                </span>
+                <span class="hidden md:inline text-slate-500">|</span>
+                <span class="hidden md:flex items-center">
+                    <i class="fa-solid fa-location-dot text-amber-400 mr-1.5"></i> Serving Delhi NCR, Faridabad & All India Outstation
+                </span>
+            </div>
+            <div class="flex items-center space-x-4 ml-auto">
+                <a href="tel:+918920175546" class="hover:text-amber-400 transition flex items-center font-semibold">
+                    <i class="fa-solid fa-phone-volume text-amber-400 mr-1.5 animate-bounce"></i> +91 8920175546
+                </a>
+                <span class="text-slate-600">|</span>
+                <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours%20and%20Travels,%20I%20want%20to%20inquire%20about%20a%20cab/tour%20booking." target="_blank" rel="noopener noreferrer" class="text-emerald-400 hover:text-emerald-300 transition flex items-center font-semibold">
+                    <i class="fa-brands fa-whatsapp mr-1 text-base"></i> WhatsApp Instant Quote
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Sticky Navigation Header -->
+    <header class="sticky top-0 z-50 bg-white/95 backdrop-blur-md shadow-md border-b border-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Brand Logo -->
+                <a href="#home" class="flex items-center space-x-3 group">
+                    <div class="w-12 h-12 rounded-2xl bg-gradient-to-br from-amber-500 to-orange-600 flex items-center justify-center text-white shadow-lg shadow-orange-500/30 group-hover:scale-105 transition">
+                        <i class="fa-solid fa-car-side text-2xl"></i>
+                    </div>
+                    <div>
+                        <span class="font-heading font-extrabold text-xl sm:text-2xl tracking-tight text-brand-navy block leading-none">
+                            SHEKHAR
+                        </span>
+                        <span class="text-xs sm:text-sm font-semibold text-orange-600 tracking-widest uppercase block mt-0.5">
+                            Tours & Travels
+                        </span>
+                    </div>
+                </a>
+
+                <!-- Desktop Navigation Links -->
+                <nav class="hidden lg:flex items-center space-x-7 font-medium text-slate-700">
+                    <a href="#home" class="hover:text-orange-600 transition">Home</a>
+                    <a href="#services" class="hover:text-orange-600 transition">Services</a>
+                    <a href="#fleet" class="hover:text-orange-600 transition">Our Fleet</a>
+                    <a href="#packages" class="hover:text-orange-600 transition">Tour Packages</a>
+                    <a href="#why-us" class="hover:text-orange-600 transition">Why Us</a>
+                    <a href="#contact" class="hover:text-orange-600 transition">Contact</a>
+                </nav>
+
+                <!-- Header Action Buttons -->
+                <div class="hidden sm:flex items-center space-x-3">
+                    <a href="tel:+918920175546" class="px-4 py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm flex items-center shadow-sm transition">
+                        <i class="fa-solid fa-phone mr-2 text-amber-400"></i>
+                        <span>8920175546</span>
+                    </a>
+                    <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours%20%26%20Travels,%20I%20would%20like%20to%20book%20a%20ride." target="_blank" rel="noopener noreferrer" class="px-4 py-2.5 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm flex items-center shadow-md shadow-green-500/20 transition">
+                        <i class="fa-brands fa-whatsapp mr-2 text-lg"></i>
+                        <span>WhatsApp Us</span>
+                    </a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <div class="flex items-center space-x-2 sm:hidden">
+                    <a href="tel:+918920175546" class="w-10 h-10 rounded-xl bg-amber-500 text-white flex items-center justify-center shadow">
+                        <i class="fa-solid fa-phone"></i>
+                    </a>
+                    <a href="https://wa.me/918920175546" target="_blank" rel="noopener noreferrer" class="w-10 h-10 rounded-xl bg-brand-whatsapp text-white flex items-center justify-center shadow">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                    </a>
+                    <button id="mobile-menu-btn" class="w-10 h-10 rounded-xl bg-slate-100 text-slate-800 flex items-center justify-center focus:outline-none">
+                        <i class="fa-solid fa-bars text-xl"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Mobile Menu Dropdown -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white border-b border-slate-200 px-4 pt-2 pb-6 space-y-3">
+            <div class="grid grid-cols-2 gap-2 pt-2">
+                <a href="#home" class="mobile-link px-3 py-2 rounded-lg hover:bg-orange-50 hover:text-orange-600 font-medium">Home</a>
+                <a href="#services" class="mobile-link px-3 py-2 rounded-lg hover:bg-orange-50 hover:text-orange-600 font-medium">Services</a>
+                <a href="#fleet" class="mobile-link px-3 py-2 rounded-lg hover:bg-orange-50 hover:text-orange-600 font-medium">Our Fleet</a>
+                <a href="#packages" class="mobile-link px-3 py-2 rounded-lg hover:bg-orange-50 hover:text-orange-600 font-medium">Tour Packages</a>
+                <a href="#why-us" class="mobile-link px-3 py-2 rounded-lg hover:bg-orange-50 hover:text-orange-600 font-medium">Why Us</a>
+                <a href="#contact" class="mobile-link px-3 py-2 rounded-lg hover:bg-orange-50 hover:text-orange-600 font-medium">Contact Us</a>
+            </div>
+            <div class="pt-3 border-t border-slate-100 flex flex-col space-y-2">
+                <a href="tel:+918920175546" class="w-full py-3 rounded-xl bg-brand-navy text-white font-semibold text-center flex items-center justify-center">
+                    <i class="fa-solid fa-phone mr-2 text-amber-400"></i> Call Now: +91 8920175546
+                </a>
+                <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours%20%26%20Travels,%20I%20want%20to%20book%20a%20vehicle." target="_blank" rel="noopener noreferrer" class="w-full py-3 rounded-xl bg-brand-whatsapp text-white font-semibold text-center flex items-center justify-center">
+                    <i class="fa-brands fa-whatsapp mr-2 text-xl"></i> Chat on WhatsApp
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section with Instant WhatsApp Booking Form -->
+    <section id="home" class="hero-bg relative py-14 lg:py-24 text-white overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10 items-center">
+                
+                <!-- Left Column: Value Proposition -->
+                <div class="lg:col-span-7 space-y-6">
+                    <div class="inline-flex items-center space-x-2 px-4 py-1.5 rounded-full bg-amber-500/20 border border-amber-400/40 text-amber-300 text-xs sm:text-sm font-semibold">
+                        <span class="w-2 h-2 rounded-full bg-amber-400 animate-ping"></span>
+                        <span>#1 Trusted Cab & Travel Partner in Delhi NCR & India</span>
+                    </div>
+
+                    <h1 class="font-heading font-extrabold text-3xl sm:text-5xl lg:text-6xl leading-tight">
+                        Explore Every Destination with <span class="text-transparent bg-clip-text bg-gradient-to-r from-amber-400 to-orange-500">Comfort & Safety</span>
+                    </h1>
+
+                    <p class="text-slate-200 text-base sm:text-lg max-w-2xl leading-relaxed">
+                        Welcome to <strong class="text-white">Shekhar Tours & Travels</strong>. From local city rides and punctual airport transfers to luxury outstation family trips and pilgrimage packages—we offer clean vehicles, polite verified drivers, and unbeatable rates 24/7.
+                    </p>
+
+                    <!-- Direct CTA Buttons -->
+                    <div class="flex flex-wrap gap-4 pt-2">
+                        <a href="tel:+918920175546" class="px-7 py-4 rounded-2xl bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-heading font-bold text-base sm:text-lg shadow-xl shadow-orange-600/30 flex items-center transition transform hover:-translate-y-0.5">
+                            <i class="fa-solid fa-phone-volume mr-3 text-xl"></i>
+                            <div>
+                                <span class="block text-xs font-normal uppercase text-orange-100">24/7 Direct Booking</span>
+                                <span>Call: 8920175546</span>
+                            </div>
+                        </a>
+
+                        <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours%20%26%20Travels,%20please%20share%20cab%20rates%20and%20availability." target="_blank" rel="noopener noreferrer" class="px-7 py-4 rounded-2xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-heading font-bold text-base sm:text-lg shadow-xl shadow-green-600/30 flex items-center transition transform hover:-translate-y-0.5">
+                            <i class="fa-brands fa-whatsapp mr-3 text-2xl"></i>
+                            <div>
+                                <span class="block text-xs font-normal uppercase text-green-100">Instant Response</span>
+                                <span>WhatsApp Booking</span>
+                            </div>
+                        </a>
+                    </div>
+
+                    <!-- Trust Badges -->
+                    <div class="grid grid-cols-3 gap-4 pt-6 border-t border-slate-700/80 max-w-lg">
+                        <div class="flex items-center space-x-2.5">
+                            <i class="fa-solid fa-shield-halved text-amber-400 text-xl sm:text-2xl"></i>
+                            <span class="text-xs sm:text-sm font-medium text-slate-200">Verified Drivers</span>
+                        </div>
+                        <div class="flex items-center space-x-2.5">
+                            <i class="fa-solid fa-tags text-amber-400 text-xl sm:text-2xl"></i>
+                            <span class="text-xs sm:text-sm font-medium text-slate-200">Lowest Price</span>
+                        </div>
+                        <div class="flex items-center space-x-2.5">
+                            <i class="fa-solid fa-headset text-amber-400 text-xl sm:text-2xl"></i>
+                            <span class="text-xs sm:text-sm font-medium text-slate-200">24/7 Support</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Right Column: Quick Inquiry Widget -->
+                <div class="lg:col-span-5">
+                    <div class="bg-white text-slate-800 rounded-3xl shadow-2xl p-6 sm:p-8 border border-slate-100 relative">
+                        <div class="absolute -top-4 right-6 bg-amber-500 text-white text-xs font-bold px-3 py-1 rounded-full shadow">
+                            FASTEST QUOTE
+                        </div>
+                        <h2 class="font-heading font-bold text-2xl text-brand-navy mb-1 flex items-center">
+                            <i class="fa-solid fa-taxi text-orange-500 mr-2.5"></i> Quick Cab / Tour Inquiry
+                        </h2>
+                        <p class="text-xs sm:text-sm text-slate-500 mb-6">Fill in your trip details to get an instant fare quote on WhatsApp!</p>
+
+                        <form id="bookingForm" class="space-y-4">
+                            <!-- Trip Type -->
+                            <div class="grid grid-cols-3 gap-2 bg-slate-100 p-1.5 rounded-xl text-xs sm:text-sm font-semibold">
+                                <button type="button" onclick="setTripType('Outstation Trip')" id="tab-outstation" class="trip-tab py-2 rounded-lg bg-white text-brand-navy shadow-sm transition">Outstation</button>
+                                <button type="button" onclick="setTripType('Local / Airport')" id="tab-local" class="trip-tab py-2 rounded-lg text-slate-600 hover:text-brand-navy transition">Local / Airport</button>
+                                <button type="button" onclick="setTripType('Tour Package')" id="tab-package" class="trip-tab py-2 rounded-lg text-slate-600 hover:text-brand-navy transition">Tour Package</button>
+                            </div>
+                            <input type="hidden" id="tripType" value="Outstation Trip">
+
+                            <!-- Customer Name & Phone -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Your Name *</label>
+                                    <div class="relative">
+                                        <i class="fa-solid fa-user absolute left-3.5 top-3.5 text-slate-400 text-sm"></i>
+                                        <input type="text" id="custName" required placeholder="Enter name" class="w-full pl-9 pr-3 py-2.5 rounded-xl border border-slate-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none text-sm">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Mobile Number *</label>
+                                    <div class="relative">
+                                        <i class="fa-solid fa-phone absolute left-3.5 top-3.5 text-slate-400 text-sm"></i>
+                                        <input type="tel" id="custPhone" required placeholder="Your 10-digit number" class="w-full pl-9 pr-3 py-2.5 rounded-xl border border-slate-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none text-sm">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Pickup & Drop -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Pickup Location *</label>
+                                    <div class="relative">
+                                        <i class="fa-solid fa-location-crosshairs absolute left-3.5 top-3.5 text-green-600 text-sm"></i>
+                                        <input type="text" id="pickupLoc" required placeholder="e.g., Faridabad / Delhi" class="w-full pl-9 pr-3 py-2.5 rounded-xl border border-slate-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none text-sm">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Destination *</label>
+                                    <div class="relative">
+                                        <i class="fa-solid fa-location-dot absolute left-3.5 top-3.5 text-red-500 text-sm"></i>
+                                        <input type="text" id="dropLoc" required placeholder="e.g., Manali / Jaipur / IGI" class="w-full pl-9 pr-3 py-2.5 rounded-xl border border-slate-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none text-sm">
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Date & Vehicle Selection -->
+                            <div class="grid grid-cols-1 sm:grid-cols-2 gap-3">
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Travel Date *</label>
+                                    <div class="relative">
+                                        <input type="date" id="travelDate" required class="w-full px-3 py-2.5 rounded-xl border border-slate-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none text-sm text-slate-700">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label class="block text-xs font-semibold text-slate-600 uppercase mb-1">Select Vehicle</label>
+                                    <select id="vehicleType" class="w-full px-3 py-2.5 rounded-xl border border-slate-200 focus:border-orange-500 focus:ring-2 focus:ring-orange-200 outline-none text-sm text-slate-700 bg-white">
+                                        <option value="Sedan (Dzire / Etios - 4+1)">Sedan (Dzire/Etios) 4+1</option>
+                                        <option value="SUV (Ertiga / Carens - 6+1)">SUV (Ertiga/Carens) 6+1</option>
+                                        <option value="Innova Crysta (6+1 / 7+1)">Innova Crysta (Luxury)</option>
+                                        <option value="Tempo Traveller (12/17/20 Seater)">Tempo Traveller (Group)</option>
+                                        <option value="Need Guidance / Any">Suggest Best Vehicle</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <!-- Submit to WhatsApp Button -->
+                            <button type="submit" class="w-full py-3.5 px-6 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-heading font-bold text-base shadow-lg shadow-green-500/30 flex items-center justify-center space-x-2 transition transform active:scale-95">
+                                <i class="fa-brands fa-whatsapp text-2xl"></i>
+                                <span>Get Instant Quote on WhatsApp</span>
+                            </button>
+
+                            <div class="text-center pt-1">
+                                <span class="text-xs text-slate-400">Or call directly for urgent booking: </span>
+                                <a href="tel:+918920175546" class="text-xs font-bold text-orange-600 hover:underline">+91 8920175546</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Quick Contact Strip -->
+    <section class="bg-gradient-to-r from-brand-navy via-blue-950 to-brand-navy py-6 border-b border-slate-800">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row items-center justify-between gap-4 text-white">
+                <div class="flex items-center space-x-4">
+                    <div class="w-12 h-12 rounded-2xl bg-amber-500/20 border border-amber-400/30 flex items-center justify-center text-amber-400 text-2xl shrink-0">
+                        <i class="fa-solid fa-bolt"></i>
+                    </div>
+                    <div>
+                        <h3 class="font-heading font-bold text-lg">Need an Urgent Cab Within 15 Minutes?</h3>
+                        <p class="text-slate-300 text-xs sm:text-sm">Our drivers are stationed across Faridabad, Delhi, Noida, Gurugram & Ghaziabad.</p>
+                    </div>
+                </div>
+                <div class="flex items-center space-x-3 w-full md:w-auto justify-center">
+                    <a href="tel:+918920175546" class="flex-1 md:flex-initial text-center px-5 py-2.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-sm transition">
+                        <i class="fa-solid fa-phone mr-1.5"></i> Call 8920175546
+                    </a>
+                    <a href="https://wa.me/918920175546?text=Hi%20Shekhar%20Tours,%20I%20need%20an%20urgent%20cab%20booking." target="_blank" rel="noopener noreferrer" class="flex-1 md:flex-initial text-center px-5 py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-white font-semibold text-sm border border-white/20 transition">
+                        <i class="fa-brands fa-whatsapp text-green-400 mr-1.5"></i> WhatsApp Now
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Services Section -->
+    <section id="services" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-orange-600 font-bold text-xs uppercase tracking-widest px-3 py-1 rounded-full bg-orange-50 border border-orange-200">Our Travel Services</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-navy mt-3">
+                    Complete Travel Solutions Under One Roof
+                </h2>
+                <p class="text-slate-600 mt-3 text-sm sm:text-base">
+                    Whether you're commuting to the airport, heading out for a weekend family getaway, or planning a sacred pilgrimage tour, Shekhar Tours & Travels has you covered.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Service 1 -->
+                <div class="bg-slate-50 rounded-3xl p-6 border border-slate-200/80 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-blue-600 text-white flex items-center justify-center text-2xl shadow-lg shadow-blue-600/20 mb-5">
+                            <i class="fa-solid fa-route"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-brand-navy mb-2">Outstation Cabs</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Affordable one-way drops and round-trip outstation taxis from Delhi NCR to Himachal, Uttarakhand, Rajasthan, UP, Punjab & beyond.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20want%20to%20book%20an%20Outstation%20Cab." target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:text-orange-700 font-semibold text-sm flex items-center group">
+                        <span>Book Outstation Ride</span>
+                        <i class="fa-solid fa-arrow-right ml-2 transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                </div>
+
+                <!-- Service 2 -->
+                <div class="bg-slate-50 rounded-3xl p-6 border border-slate-200/80 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-amber-500 text-white flex items-center justify-center text-2xl shadow-lg shadow-amber-500/20 mb-5">
+                            <i class="fa-solid fa-plane-departure"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-brand-navy mb-2">Airport & Railway Transfer</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            100% punctual pickup and drop services for IGI Airport Delhi (T1, T2, T3) and all major railway stations. Never miss a flight or train!
+                        </p>
+                    </div>
+                    <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20need%20an%20Airport%20/%20Railway%20Station%20transfer." target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:text-orange-700 font-semibold text-sm flex items-center group">
+                        <span>Schedule Airport Cab</span>
+                        <i class="fa-solid fa-arrow-right ml-2 transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                </div>
+
+                <!-- Service 3 -->
+                <div class="bg-slate-50 rounded-3xl p-6 border border-slate-200/80 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-emerald-600 text-white flex items-center justify-center text-2xl shadow-lg shadow-emerald-600/20 mb-5">
+                            <i class="fa-solid fa-mountain-sun"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-brand-navy mb-2">Holiday & Pilgrimage Tours</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            Customized tour packages for Char Dham Yatra, Kedarnath, Haridwar-Rishikesh, Shimla-Manali, Khatu Shyam Ji, Salasar & Agra-Mathura.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20please%20share%20details%20about%20Holiday%20and%20Pilgrimage%20Tour%20Packages." target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:text-orange-700 font-semibold text-sm flex items-center group">
+                        <span>Explore Tour Packages</span>
+                        <i class="fa-solid fa-arrow-right ml-2 transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                </div>
+
+                <!-- Service 4 -->
+                <div class="bg-slate-50 rounded-3xl p-6 border border-slate-200/80 card-hover flex flex-col justify-between">
+                    <div>
+                        <div class="w-14 h-14 rounded-2xl bg-purple-600 text-white flex items-center justify-center text-2xl shadow-lg shadow-purple-600/20 mb-5">
+                            <i class="fa-solid fa-van-shuttle"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-xl text-brand-navy mb-2">Corporate & Group Rentals</h3>
+                        <p class="text-slate-600 text-sm leading-relaxed mb-4">
+                            8hr/80km local hourly rental packages, corporate employee transport, wedding car bookings, and luxury AC Tempo Travellers for big groups.
+                        </p>
+                    </div>
+                    <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20want%20to%20inquire%20about%20Group/Corporate/Wedding%20vehicle%20rental." target="_blank" rel="noopener noreferrer" class="text-orange-600 hover:text-orange-700 font-semibold text-sm flex items-center group">
+                        <span>Inquire Group Booking</span>
+                        <i class="fa-solid fa-arrow-right ml-2 transform group-hover:translate-x-1 transition"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Fleet & Pricing Section -->
+    <section id="fleet" class="py-16 lg:py-24 bg-slate-100">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-3xl mx-auto mb-14">
+                <span class="text-orange-600 font-bold text-xs uppercase tracking-widest px-3 py-1 rounded-full bg-orange-100 border border-orange-200">Clean & Sanitized Fleet</span>
+                <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-navy mt-3">
+                    Choose Your Perfect Ride
+                </h2>
+                <p class="text-slate-600 mt-3 text-sm sm:text-base">
+                    Well-maintained AC vehicles with experienced chauffeurs. Transparent per-kilometer and package pricing with zero hidden charges.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-7">
+                
+                <!-- Fleet 1: Sedan -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200/80 card-hover flex flex-col">
+                    <div class="relative h-48 bg-slate-200 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1549399542-7e3f8b79c341?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Sedan Dzire Etios Cab" onerror="this.src='https://placehold.co/600x400/1e293b/f59e0b?text=Sedan+(Dzire+/+Etios)'" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-brand-navy/90 text-white text-xs font-bold px-3 py-1 rounded-full">
+                            Most Popular
+                        </span>
+                        <span class="absolute bottom-3 right-3 bg-amber-500 text-slate-950 text-xs font-extrabold px-3 py-1 rounded-lg shadow">
+                            4+1 Seater
+                        </span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-heading font-bold text-xl text-brand-navy">Comfort Sedan</h3>
+                            <p class="text-xs font-semibold text-orange-600 mb-3">Swift Dzire / Toyota Etios / Aura</p>
+                            
+                            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-5 border-t border-b border-slate-100 py-3">
+                                <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> 4 Passengers + 1 Driver</li>
+                                <li class="flex items-center"><i class="fa-solid fa-snowflake text-blue-500 mr-2"></i> Fully Air Conditioned</li>
+                                <li class="flex items-center"><i class="fa-solid fa-suitcase text-amber-600 mr-2"></i> 2-3 Medium Luggage Bags</li>
+                                <li class="flex items-center"><i class="fa-solid fa-tag text-emerald-600 mr-2"></i> Best for Airport & Small Families</li>
+                            </ul>
+                        </div>
+
+                        <div class="space-y-2">
+                            <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20want%20to%20book%20a%20Sedan%20(Dzire/Etios).%20Please%20share%20best%20rates." target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm flex items-center justify-center transition">
+                                <i class="fa-brands fa-whatsapp mr-2 text-lg"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+918920175546" class="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm flex items-center justify-center transition">
+                                <i class="fa-solid fa-phone mr-2 text-amber-400"></i> Call for Best Rate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fleet 2: SUV Ertiga -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200/80 card-hover flex flex-col">
+                    <div class="relative h-48 bg-slate-200 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="SUV Ertiga Cab" onerror="this.src='https://placehold.co/600x400/1e293b/f59e0b?text=SUV+(Maruti+Ertiga)'" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                            Family Favorite
+                        </span>
+                        <span class="absolute bottom-3 right-3 bg-amber-500 text-slate-950 text-xs font-extrabold px-3 py-1 rounded-lg shadow">
+                            6+1 Seater
+                        </span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-heading font-bold text-xl text-brand-navy">Spacious SUV</h3>
+                            <p class="text-xs font-semibold text-orange-600 mb-3">Maruti Ertiga / Kia Carens</p>
+                            
+                            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-5 border-t border-b border-slate-100 py-3">
+                                <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> 6 Passengers + 1 Driver</li>
+                                <li class="flex items-center"><i class="fa-solid fa-snowflake text-blue-500 mr-2"></i> Dual Rear AC Vents</li>
+                                <li class="flex items-center"><i class="fa-solid fa-suitcase text-amber-600 mr-2"></i> 4 Luggage Bags + Carrier</li>
+                                <li class="flex items-center"><i class="fa-solid fa-tag text-emerald-600 mr-2"></i> Ideal for Hill Stations & Groups</li>
+                            </ul>
+                        </div>
+
+                        <div class="space-y-2">
+                            <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20want%20to%20book%20an%20SUV%20(Ertiga%206+1).%20Please%20share%20best%20rates." target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm flex items-center justify-center transition">
+                                <i class="fa-brands fa-whatsapp mr-2 text-lg"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+918920175546" class="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm flex items-center justify-center transition">
+                                <i class="fa-solid fa-phone mr-2 text-amber-400"></i> Call for Best Rate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fleet 3: Innova Crysta -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200/80 card-hover flex flex-col">
+                    <div class="relative h-48 bg-slate-200 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Innova Crysta Luxury SUV" onerror="this.src='https://placehold.co/600x400/1e293b/f59e0b?text=Toyota+Innova+Crysta'" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full">
+                            Premium Luxury
+                        </span>
+                        <span class="absolute bottom-3 right-3 bg-brand-navy text-white text-xs font-extrabold px-3 py-1 rounded-lg shadow">
+                            6+1 / 7+1 Seater
+                        </span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-heading font-bold text-xl text-brand-navy">Premium SUV</h3>
+                            <p class="text-xs font-semibold text-orange-600 mb-3">Toyota Innova Crysta / Hycross</p>
+                            
+                            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-5 border-t border-b border-slate-100 py-3">
+                                <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> Captain & Bench Seat Options</li>
+                                <li class="flex items-center"><i class="fa-solid fa-couch text-purple-500 mr-2"></i> Supreme Legroom & Recliner</li>
+                                <li class="flex items-center"><i class="fa-solid fa-suitcase text-amber-600 mr-2"></i> Large Boot + Roof Carrier</li>
+                                <li class="flex items-center"><i class="fa-solid fa-tag text-emerald-600 mr-2"></i> Best for Long Outstation & VIP</li>
+                            </ul>
+                        </div>
+
+                        <div class="space-y-2">
+                            <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20want%20to%20book%20an%20Innova%20Crysta.%20Please%20share%20best%20rates." target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm flex items-center justify-center transition">
+                                <i class="fa-brands fa-whatsapp mr-2 text-lg"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+918920175546" class="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm flex items-center justify-center transition">
+                                <i class="fa-solid fa-phone mr-2 text-amber-400"></i> Call for Best Rate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Fleet 4: Tempo Traveller -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-md border border-slate-200/80 card-hover flex flex-col">
+                    <div class="relative h-48 bg-slate-200 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Luxury Tempo Traveller" onerror="this.src='https://placehold.co/600x400/1e293b/f59e0b?text=Tempo+Traveller'" class="w-full h-full object-cover">
+                        <span class="absolute top-3 left-3 bg-emerald-600 text-white text-xs font-bold px-3 py-1 rounded-full">
+                            Group Tours
+                        </span>
+                        <span class="absolute bottom-3 right-3 bg-amber-500 text-slate-950 text-xs font-extrabold px-3 py-1 rounded-lg shadow">
+                            12 / 17 / 20 / 26 Seater
+                        </span>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <div>
+                            <h3 class="font-heading font-bold text-xl text-brand-navy">Tempo Traveller</h3>
+                            <p class="text-xs font-semibold text-orange-600 mb-3">Force Maharaja Pushback AC</p>
+                            
+                            <ul class="space-y-2 text-xs sm:text-sm text-slate-600 mb-5 border-t border-b border-slate-100 py-3">
+                                <li class="flex items-center"><i class="fa-solid fa-check text-green-500 mr-2"></i> 12, 17, 20 & 26 Seater Options</li>
+                                <li class="flex items-center"><i class="fa-solid fa-tv text-blue-500 mr-2"></i> Music System, LED & Charging</li>
+                                <li class="flex items-center"><i class="fa-solid fa-couch text-amber-600 mr-2"></i> Maharaja 1x1 / 2x1 Pushback</li>
+                                <li class="flex items-center"><i class="fa-solid fa-tag text-emerald-600 mr-2"></i> Char Dham, Weddings & Picnics</li>
+                            </ul>
+                        </div>
+
+                        <div class="space-y-2">
+                            <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20want%20to%20book%20a%20Tempo%20Traveller.%20Please%20share%20rates." target="_blank" rel="noopener noreferrer" class="w-full py-2.5 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm flex items-center justify-center transition">
+                                <i class="fa-brands fa-whatsapp mr-2 text-lg"></i> Book on WhatsApp
+                            </a>
+                            <a href="tel:+918920175546" class="w-full py-2.5 rounded-xl bg-slate-900 hover:bg-slate-800 text-white font-semibold text-sm flex items-center justify-center transition">
+                                <i class="fa-solid fa-phone mr-2 text-amber-400"></i> Call for Best Rate
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Tour Packages Section -->
+    <section id="packages" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex flex-col md:flex-row md:items-end justify-between mb-12">
+                <div>
+                    <span class="text-orange-600 font-bold text-xs uppercase tracking-widest px-3 py-1 rounded-full bg-orange-50 border border-orange-200">Best Selling Destinations</span>
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-4xl text-brand-navy mt-3">
+                        Popular Outstation & Holiday Packages
+                    </h2>
+                </div>
+                <p class="text-slate-600 text-sm sm:text-base mt-2 md:mt-0 max-w-md">
+                    Customizable itineraries with pickup from your doorstep in Faridabad, Delhi, Noida, or Gurugram.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- Package 1 -->
+                <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm card-hover bg-white flex flex-col">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Shimla Manali Tour" onerror="this.src='https://placehold.co/600x400/0f172a/f59e0b?text=Shimla+Manali+Tour'" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                        <span class="absolute top-4 right-4 bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full">
+                            5 Days / 4 Nights
+                        </span>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <h3 class="font-heading font-bold text-xl">Shimla - Kullu - Manali</h3>
+                            <p class="text-xs text-slate-200"><i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> Solang Valley, Atal Tunnel, Kufri</p>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-slate-600 text-sm mb-5">
+                            Experience snow-capped mountains, scenic valleys, and adventure sports with our experienced hill-driving chauffeurs.
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20am%20interested%20in%20the%20Shimla-Manali%20Tour%20Package.%20Please%20share%20details." target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-4 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm text-center transition">
+                                <i class="fa-brands fa-whatsapp mr-1.5"></i> Get Package Price
+                            </a>
+                            <a href="tel:+918920175546" class="p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 transition" title="Call Now">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 2 -->
+                <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm card-hover bg-white flex flex-col">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1587474260584-136574528ed5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Haridwar Rishikesh Mussoorie" onerror="this.src='https://placehold.co/600x400/0f172a/f59e0b?text=Haridwar+Rishikesh+Tour'" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                        <span class="absolute top-4 right-4 bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full">
+                            3 Days / 2 Nights
+                        </span>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <h3 class="font-heading font-bold text-xl">Haridwar - Rishikesh - Mussoorie</h3>
+                            <p class="text-xs text-slate-200"><i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> Ganga Aarti, Ram Jhula, Kempty Falls</p>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-slate-600 text-sm mb-5">
+                            Perfect family weekend trip combining spiritual Ganga Aarti in Haridwar, adventure in Rishikesh, and Queen of Hills Mussoorie.
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20am%20interested%20in%20the%20Haridwar-Rishikesh-Mussoorie%20Package." target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-4 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm text-center transition">
+                                <i class="fa-brands fa-whatsapp mr-1.5"></i> Get Package Price
+                            </a>
+                            <a href="tel:+918920175546" class="p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 transition" title="Call Now">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 3 -->
+                <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm card-hover bg-white flex flex-col">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1564507592333-c60657eea523?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Agra Mathura Vrindavan" onerror="this.src='https://placehold.co/600x400/0f172a/f59e0b?text=Agra+Mathura+Vrindavan'" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                        <span class="absolute top-4 right-4 bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full">
+                            1 or 2 Days Trip
+                        </span>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <h3 class="font-heading font-bold text-xl">Agra - Mathura - Vrindavan</h3>
+                            <p class="text-xs text-slate-200"><i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> Taj Mahal, Prem Mandir, Banke Bihari</p>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-slate-600 text-sm mb-5">
+                            Same-day or weekend trip via Yamuna Expressway covering the iconic Taj Mahal, Agra Fort, Janmabhoomi & Prem Mandir.
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20want%20to%20book%20an%20Agra-Mathura-Vrindavan%20trip." target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-4 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm text-center transition">
+                                <i class="fa-brands fa-whatsapp mr-1.5"></i> Get Package Price
+                            </a>
+                            <a href="tel:+918920175546" class="p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 transition" title="Call Now">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 4 -->
+                <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm card-hover bg-white flex flex-col">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1477587458883-47145ed94245?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Royal Rajasthan Jaipur" onerror="this.src='https://placehold.co/600x400/0f172a/f59e0b?text=Jaipur+Khatu+Shyam+Tour'" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                        <span class="absolute top-4 right-4 bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full">
+                            2 to 4 Days
+                        </span>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <h3 class="font-heading font-bold text-xl">Jaipur & Khatu Shyam Ji</h3>
+                            <p class="text-xs text-slate-200"><i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> Khatu Shyam, Salasar Balaji, Pink City</p>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-slate-600 text-sm mb-5">
+                            Seek blessings at Khatu Shyam Ji & Salasar Balaji Dham alongside royal sightseeing at Amer Fort, Hawa Mahal & City Palace.
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20want%20to%20inquire%20about%20Jaipur%20/%20Khatu%20Shyam%20Ji%20Darshan%20cab%20package." target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-4 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm text-center transition">
+                                <i class="fa-brands fa-whatsapp mr-1.5"></i> Get Package Price
+                            </a>
+                            <a href="tel:+918920175546" class="p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 transition" title="Call Now">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 5 -->
+                <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm card-hover bg-white flex flex-col">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1597074866923-dc0589150358?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Char Dham Yatra" onerror="this.src='https://placehold.co/600x400/0f172a/f59e0b?text=Char+Dham+Yatra'" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                        <span class="absolute top-4 right-4 bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full">
+                            5 to 11 Days
+                        </span>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <h3 class="font-heading font-bold text-xl">Char Dham / Do Dham Yatra</h3>
+                            <p class="text-xs text-slate-200"><i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> Kedarnath, Badrinath, Gangotri, Yamunotri</p>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-slate-600 text-sm mb-5">
+                            Safe and comfortable Himalayan pilgrimage packages in SUVs, Innova Crysta, and Tempo Travellers with hill-expert drivers.
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20want%20to%20inquire%20about%20Char%20Dham%20/%20Kedarnath%20Yatra%20booking." target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-4 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm text-center transition">
+                                <i class="fa-brands fa-whatsapp mr-1.5"></i> Get Package Price
+                            </a>
+                            <a href="tel:+918920175546" class="p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 transition" title="Call Now">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Package 6 -->
+                <div class="rounded-3xl overflow-hidden border border-slate-200 shadow-sm card-hover bg-white flex flex-col">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1566837945700-30057527ade0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Nainital Jim Corbett" onerror="this.src='https://placehold.co/600x400/0f172a/f59e0b?text=Nainital+Corbett+Tour'" class="w-full h-full object-cover">
+                        <div class="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-transparent to-transparent"></div>
+                        <span class="absolute top-4 right-4 bg-amber-500 text-slate-950 text-xs font-bold px-3 py-1 rounded-full">
+                            3 Days / 2 Nights
+                        </span>
+                        <div class="absolute bottom-4 left-4 text-white">
+                            <h3 class="font-heading font-bold text-xl">Nainital & Jim Corbett</h3>
+                            <p class="text-xs text-slate-200"><i class="fa-solid fa-location-dot text-amber-400 mr-1"></i> Naini Lake, Bhimtal, Jungle Safari</p>
+                        </div>
+                    </div>
+                    <div class="p-6 flex-1 flex flex-col justify-between">
+                        <p class="text-slate-600 text-sm mb-5">
+                            Refreshing lake tour and wildlife safari getaway perfect for families, couples, and corporate groups from Delhi NCR.
+                        </p>
+                        <div class="flex items-center gap-3">
+                            <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours,%20I%20am%20interested%20in%20the%20Nainital%20%26%20Jim%20Corbett%20Tour%20Package." target="_blank" rel="noopener noreferrer" class="flex-1 py-2.5 px-4 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-semibold text-sm text-center transition">
+                                <i class="fa-brands fa-whatsapp mr-1.5"></i> Get Package Price
+                            </a>
+                            <a href="tel:+918920175546" class="p-2.5 rounded-xl bg-slate-100 hover:bg-slate-200 text-slate-800 transition" title="Call Now">
+                                <i class="fa-solid fa-phone"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="why-us" class="py-16 lg:py-24 bg-brand-navy text-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <div class="lg:col-span-5 space-y-6">
+                    <span class="text-amber-400 font-bold text-xs uppercase tracking-widest px-3 py-1 rounded-full bg-amber-500/10 border border-amber-400/30">Why Shekhar Tours & Travels</span>
+                    <h2 class="font-heading font-extrabold text-3xl sm:text-4xl leading-tight">
+                        Your Safety & Comfort is Our Top Priority
+                    </h2>
+                    <p class="text-slate-300 text-sm sm:text-base leading-relaxed">
+                        We have built our reputation on punctuality, honesty, and customer satisfaction. Whether it is a late-night airport pickup or a 10-day family hill tour, we treat every passenger like family.
+                    </p>
+                    <div class="pt-2 flex flex-wrap gap-4">
+                        <a href="tel:+918920175546" class="px-6 py-3.5 rounded-xl bg-amber-500 hover:bg-amber-600 text-slate-950 font-bold text-sm flex items-center transition">
+                            <i class="fa-solid fa-phone-volume mr-2"></i> Speak to Us: 8920175546
+                        </a>
+                        <a href="https://wa.me/918920175546" target="_blank" rel="noopener noreferrer" class="px-6 py-3.5 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-bold text-sm flex items-center transition">
+                            <i class="fa-brands fa-whatsapp mr-2 text-lg"></i> WhatsApp Now
+                        </a>
+                    </div>
+                </div>
+
+                <div class="lg:col-span-7 grid grid-cols-1 sm:grid-cols-2 gap-6">
+                    <div class="bg-slate-800/70 border border-slate-700 p-6 rounded-3xl">
+                        <div class="w-12 h-12 rounded-2xl bg-amber-500/20 text-amber-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-user-shield"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-lg mb-2">Verified & Polite Drivers</h3>
+                        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+                            All our drivers are police-verified, uniformed, well-spoken, and experienced in highway and hill driving.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-800/70 border border-slate-700 p-6 rounded-3xl">
+                        <div class="w-12 h-12 rounded-2xl bg-emerald-500/20 text-emerald-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-hand-holding-dollar"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-lg mb-2">Transparent Billing</h3>
+                        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+                            Clear upfront rates for per-km, state tax, toll, and driver allowance. Zero hidden surprises at the end of your trip.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-800/70 border border-slate-700 p-6 rounded-3xl">
+                        <div class="w-12 h-12 rounded-2xl bg-blue-500/20 text-blue-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-spray-can-sparkles"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-lg mb-2">Clean & Well-Maintained Cabs</h3>
+                        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+                            Every vehicle is thoroughly cleaned, sanitized, and mechanically inspected before arriving at your pickup location.
+                        </p>
+                    </div>
+
+                    <div class="bg-slate-800/70 border border-slate-700 p-6 rounded-3xl">
+                        <div class="w-12 h-12 rounded-2xl bg-purple-500/20 text-purple-400 flex items-center justify-center text-xl mb-4">
+                            <i class="fa-solid fa-clock-rotate-left"></i>
+                        </div>
+                        <h3 class="font-heading font-bold text-lg mb-2">On-Time Guarantee 24/7</h3>
+                        <p class="text-slate-300 text-xs sm:text-sm leading-relaxed">
+                            Our cab reaches your doorstep 15 minutes before scheduled pickup time—day or night, rain or shine.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Customer Testimonials -->
+    <section class="py-16 bg-slate-50 border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="text-center max-w-2xl mx-auto mb-12">
+                <span class="text-orange-600 font-bold text-xs uppercase tracking-widest">Happy Travellers</span>
+                <h2 class="font-heading font-extrabold text-3xl text-brand-navy mt-2">What Our Customers Say</h2>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-200/80">
+                    <div class="flex text-amber-400 text-sm mb-3">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-sm italic mb-4">
+                        "Booked an Innova Crysta from Shekhar Tours & Travels for our family trip to Manali. The car was brand new, neat and clean, and driver bhaiya was very polite and skilled on hill roads."
+                    </p>
+                    <div class="font-bold text-brand-navy text-sm">— Rajesh Sharma, Faridabad</div>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-200/80">
+                    <div class="flex text-amber-400 text-sm mb-3">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-sm italic mb-4">
+                        "Needed an urgent 4:00 AM cab for IGI Airport T3. Called 8920175546 at night and got instant confirmation on WhatsApp. Driver arrived 15 mins early. Highly dependable service!"
+                    </p>
+                    <div class="font-bold text-brand-navy text-sm">— Neha Gupta, South Delhi</div>
+                </div>
+
+                <div class="bg-white p-6 rounded-3xl shadow-sm border border-slate-200/80">
+                    <div class="flex text-amber-400 text-sm mb-3">
+                        <i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>
+                    </div>
+                    <p class="text-slate-600 text-sm italic mb-4">
+                        "We hired a 17-seater Tempo Traveller for Khatu Shyam Ji and Salasar Balaji darshan. Best rate in NCR and zero hidden charges. Will definitely book again!"
+                    </p>
+                    <div class="font-bold text-brand-navy text-sm">— Amit Verma & Family, Noida</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Direct Contact CTA Section -->
+    <section id="contact" class="py-16 lg:py-24 bg-white">
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-br from-brand-navy via-slate-900 to-blue-950 rounded-3xl p-8 sm:p-12 text-white shadow-2xl relative overflow-hidden">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    
+                    <div class="lg:col-span-7 space-y-4">
+                        <span class="px-3 py-1 rounded-full bg-amber-500/20 text-amber-300 text-xs font-bold uppercase tracking-wider">
+                            24x7 Customer Helpdesk
+                        </span>
+                        <h2 class="font-heading font-extrabold text-3xl sm:text-4xl">
+                            Ready to Book Your Next Journey?
+                        </h2>
+                        <p class="text-slate-300 text-sm sm:text-base">
+                            Call or WhatsApp <strong class="text-white">Shekhar Tours & Travels</strong> right now for instant cab availability, outstation fare quotes, or customized family tour packages.
+                        </p>
+
+                        <div class="pt-4 space-y-3 text-sm text-slate-200">
+                            <div class="flex items-center space-x-3">
+                                <i class="fa-solid fa-phone text-amber-400 w-5"></i>
+                                <span><strong>Direct Mobile:</strong> <a href="tel:+918920175546" class="hover:text-amber-400 underline">+91 8920175546</a></span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i class="fa-brands fa-whatsapp text-green-400 w-5 text-base"></i>
+                                <span><strong>WhatsApp Chat:</strong> <a href="https://wa.me/918920175546" target="_blank" rel="noopener noreferrer" class="hover:text-green-400 underline">wa.me/+918920175546</a></span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i class="fa-solid fa-clock text-amber-400 w-5"></i>
+                                <span><strong>Working Hours:</strong> Open 24 Hours / 365 Days</span>
+                            </div>
+                            <div class="flex items-center space-x-3">
+                                <i class="fa-solid fa-map-location-dot text-amber-400 w-5"></i>
+                                <span><strong>Service Hubs:</strong> Faridabad, Delhi, Gurugram, Noida, Ghaziabad & All India</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="lg:col-span-5 flex flex-col space-y-4 bg-white/5 p-6 rounded-2xl border border-white/10">
+                        <div class="text-center mb-2">
+                            <span class="text-xs uppercase tracking-widest text-slate-400 block">Tap Below to Connect</span>
+                            <span class="font-heading font-extrabold text-2xl text-amber-400">+91 8920175546</span>
+                        </div>
+
+                        <a href="tel:+918920175546" class="w-full py-4 rounded-xl bg-gradient-to-r from-amber-500 to-orange-600 hover:from-amber-600 hover:to-orange-700 text-white font-heading font-bold text-center shadow-lg flex items-center justify-center space-x-3 transition">
+                            <i class="fa-solid fa-phone-volume text-xl"></i>
+                            <span>Call Now: 8920175546</span>
+                        </a>
+
+                        <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours%20%26%20Travels,%20I%20want%20to%20book%20a%20cab." target="_blank" rel="noopener noreferrer" class="w-full py-4 rounded-xl bg-brand-whatsapp hover:bg-brand-whatsappDark text-white font-heading font-bold text-center shadow-lg flex items-center justify-center space-x-3 transition">
+                            <i class="fa-brands fa-whatsapp text-2xl"></i>
+                            <span>WhatsApp: 8920175546</span>
+                        </a>
+
+                        <button onclick="copyPhoneNumber()" id="copyBtn" class="w-full py-2.5 rounded-xl bg-white/10 hover:bg-white/20 text-slate-200 text-xs font-semibold flex items-center justify-center space-x-2 transition">
+                            <i class="fa-regular fa-copy"></i>
+                            <span id="copyBtnText">Copy Phone Number</span>
+                        </button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-slate-950 text-slate-400 py-12 border-t border-slate-800 pb-24 sm:pb-12">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8 pb-8 border-b border-slate-800/80">
+                <div>
+                    <div class="flex items-center space-x-3 mb-4">
+                        <div class="w-10 h-10 rounded-xl bg-amber-500 flex items-center justify-center text-slate-950 font-bold">
+                            <i class="fa-solid fa-car-side text-lg"></i>
+                        </div>
+                        <span class="font-heading font-bold text-xl text-white">Shekhar Tours & Travels</span>
+                    </div>
+                    <p class="text-sm text-slate-400 leading-relaxed mb-4">
+                        Your reliable partner for 24/7 local & outstation cab bookings, airport transfers, corporate car rentals, and holiday tour packages across India.
+                    </p>
+                </div>
+
+                <div>
+                    <h4 class="font-heading font-bold text-white text-base mb-4">Popular Routes</h4>
+                    <ul class="space-y-2 text-sm">
+                        <li><a href="#home" class="hover:text-amber-400 transition">Delhi NCR to Shimla Manali Cab</a></li>
+                        <li><a href="#home" class="hover:text-amber-400 transition">Faridabad / Delhi to Agra Mathura Vrindavan</a></li>
+                        <li><a href="#home" class="hover:text-amber-400 transition">Delhi to Haridwar Rishikesh Dehradun</a></li>
+                        <li><a href="#home" class="hover:text-amber-400 transition">Delhi NCR to Jaipur & Khatu Shyam Ji</a></li>
+                        <li><a href="#home" class="hover:text-amber-400 transition">24/7 IGI Airport Pickup & Drop Taxi</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h4 class="font-heading font-bold text-white text-base mb-4">Quick Contact</h4>
+                    <p class="text-sm mb-2">
+                        <strong class="text-white">Phone / WhatsApp:</strong> <br>
+                        <a href="tel:+918920175546" class="text-amber-400 font-bold text-lg hover:underline">+91 8920175546</a>
+                    </p>
+                    <p class="text-sm mb-4">
+                        <strong class="text-white">WhatsApp Direct Link:</strong> <br>
+                        <a href="https://wa.me/918920175546" target="_blank" rel="noopener noreferrer" class="text-green-400 hover:underline">https://wa.me/918920175546</a>
+                    </p>
+                </div>
+            </div>
+
+            <div class="text-center text-xs text-slate-500 flex flex-col sm:flex-row justify-between items-center gap-2">
+                <p>&copy; <span id="currentYear"></span> Shekhar Tours & Travels. All Rights Reserved.</p>
+                <p>24/7 Cab & Travel Booking Helpline: <a href="tel:+918920175546" class="text-slate-300 font-semibold">+91 8920175546</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating Action Buttons (Desktop & Mobile) -->
+    <div class="fixed bottom-5 right-5 z-50 flex flex-col space-y-3">
+        <!-- Direct Call Floating Button -->
+        <a href="tel:+918920175546" aria-label="Call Shekhar Tours and Travels" class="w-14 h-14 rounded-full bg-amber-500 hover:bg-amber-600 text-slate-950 flex items-center justify-center shadow-xl transition transform hover:scale-110">
+            <i class="fa-solid fa-phone-volume text-2xl"></i>
+        </a>
+        <!-- WhatsApp Floating Button -->
+        <a href="https://wa.me/918920175546?text=Hello%20Shekhar%20Tours%20%26%20Travels,%20I%20want%20to%20book%20a%20cab." target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Shekhar Tours and Travels" class="w-14 h-14 rounded-full bg-brand-whatsapp hover:bg-brand-whatsappDark text-white flex items-center justify-center shadow-xl pulse-ring transition transform hover:scale-110">
+            <i class="fa-brands fa-whatsapp text-3xl"></i>
+        </a>
+    </div>
+
+    <!-- JavaScript for Interactive Booking & UI -->
+    <script>
+        // Set Current Year & Default Date
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+        const dateInput = document.getElementById('travelDate');
+        if (dateInput) {
+            const today = new Date().toISOString().split('T')[0];
+            dateInput.value = today;
+            dateInput.min = today;
+        }
+
+        // Mobile Menu Toggle
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        mobileMenuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when clicking a link
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+
+        // Trip Type Tab Switcher
+        function setTripType(type) {
+            document.getElementById('tripType').value = type;
+            const tabs = {
+                'Outstation Trip': document.getElementById('tab-outstation'),
+                'Local / Airport': document.getElementById('tab-local'),
+                'Tour Package': document.getElementById('tab-package')
+            };
+
+            Object.keys(tabs).forEach(key => {
+                if (key === type) {
+                    tabs[key].className = 'trip-tab py-2 rounded-lg bg-white text-brand-navy shadow-sm transition';
+                } else {
+                    tabs[key].className = 'trip-tab py-2 rounded-lg text-slate-600 hover:text-brand-navy transition';
+                }
+            });
+        }
+
+        // Handle Quick Inquiry Form Submission -> Open WhatsApp with Formatted Message
+        document.getElementById('bookingForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const tripType = document.getElementById('tripType').value;
+            const name = document.getElementById('custName').value.trim();
+            const phone = document.getElementById('custPhone').value.trim();
+            const pickup = document.getElementById('pickupLoc').value.trim();
+            const drop = document.getElementById('dropLoc').value.trim();
+            const date = document.getElementById('travelDate').value;
+            const vehicle = document.getElementById('vehicleType').value;
+
+            const message = `*New Booking Inquiry - Shekhar Tours & Travels*%0A` +
+                            `----------------------------------%0A` +
+                            `*Trip Type:* ${encodeURIComponent(tripType)}%0A` +
+                            `*Customer Name:* ${encodeURIComponent(name)}%0A` +
+                            `*Mobile:* ${encodeURIComponent(phone)}%0A` +
+                            `*Pickup From:* ${encodeURIComponent(pickup)}%0A` +
+                            `*Destination:* ${encodeURIComponent(drop)}%0A` +
+                            `*Travel Date:* ${encodeURIComponent(date)}%0A` +
+                            `*Preferred Vehicle:* ${encodeURIComponent(vehicle)}%0A` +
+                            `----------------------------------%0A` +
+                            `Please share best fare and availability.`;
+
+            const whatsappUrl = `https://wa.me/918920175546?text=${message}`;
+            window.open(whatsappUrl, '_blank');
+        });
+
+        // Copy Phone Number Helper
+        function copyPhoneNumber() {
+            const tempInput = document.createElement('input');
+            tempInput.value = '+918920175546';
+            document.body.appendChild(tempInput);
+            tempInput.select();
+            document.execCommand('copy');
+            document.body.removeChild(tempInput);
+
+            const btnText = document.getElementById('copyBtnText');
+            btnText.textContent = 'Copied: +91 8920175546!';
+            setTimeout(() => {
+                btnText.textContent = 'Copy Phone Number';
+            }, 2500);
+        }
+    </script>
+</body>
+</html>
